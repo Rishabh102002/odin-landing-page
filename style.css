@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'robodo', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*---------------------------Top Nav--------------------------*/
+
+header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: normal;
+}
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+/*---------------------------Hero section--------------------------*/
+
+.hero-sec{
+    display: flex;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+/*---------------------------Information section--------------------------*/
+
+.information-sec{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.information-sec h3{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 32px;
+}
+
+/*---------------------------Quote section--------------------------*/
+
+.quote-sec{
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300px;
+}
+.author{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: end;
+}
+
+/*---------------------------Sign up section--------------------------*/
+
+.signup-sec{
+    display: flex;
+    background: #3882F6;
+    margin: 80px 0px;
+    padding: 40px 80px;
+}
+
+/*---------------------------Footer--------------------------*/
+
+.footer{
+    height: 80px;
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+    
+    justify-content: center;
+    align-items: center;
+}
