@@ -5,7 +5,7 @@ body{
 }
 
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto", sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -160,26 +160,38 @@ ul{
 }
 .bar{
     display: flex;
-    flex-direction:;
     justify-content: space-between;
-    gap: 200px;
     background-color: #3882F6;
     margin: 120px 0px;
-    border-radius: 6px;
-    padding: 40px 180px;
+    border-radius: 6px; 
+    flex: 0 1 1024px;
 }
 .signup-text{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
+    padding: 40px 0px;
+    padding-left: 120px;
+}
+.signup-text p, .signup-text h2{
+    margin: 4px;
+}
+.signup-text p{
+    color: white ;
+    opacity: 0.8;
+    font-weight: 300;
 }
 .btn{
     display: flex;
     align-items: center;
+    min-width: 120px;
+    padding: 40px 0px;
+    padding-right: 128px;
 }
 .signup-sec button{
     color: white;
-    font-weight: 700;
-    border: solid white;
+    font-size: 18px;
+    font-weight: 600px;
+    border: solid 3px white;
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
